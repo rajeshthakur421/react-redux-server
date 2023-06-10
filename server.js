@@ -10,7 +10,7 @@ require("dotenv").config();
 const app = express();
 dotenv.config();
 
-// db
+// db test
 mongoose
   .connect(process.env.DATABASE, {
     useNewUrlParser: true,
